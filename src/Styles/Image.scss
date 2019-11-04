@@ -1,0 +1,29 @@
+div.meme {
+    position: relative;
+    img {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    h1 {
+        display: inline-block;
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;/* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 60%;
+        text-transform: uppercase;
+        color: black;
+
+    }
+}
+
+h1.top {
+    top:20px;
+}
+h1.bottom {
+    bottom: 40px;
+}

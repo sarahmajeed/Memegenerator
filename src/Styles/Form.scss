@@ -1,0 +1,35 @@
+
+
+Form.meme-form{
+    display: block;
+    width:350px;
+    height:auto;
+    margin:50px auto 0;
+    padding:50px;
+    background-color:#EEE;
+    color:#333;
+    border:2px solid #C2D6FF;
+    border-radius:40px 0 40px 0;
+
+    input {
+        height: 50px;
+        width: 220px;
+        border: 4px solid #0066A2 ;
+    }
+
+    .btn {
+        background:#0066A2;
+        color:white;
+        border-style: outset;
+        border-color:#0066A2;
+        height: 50px;
+        width: 220px;
+        margin: 10px 0;
+
+    }
+   
+
+}
+
+ 
+
